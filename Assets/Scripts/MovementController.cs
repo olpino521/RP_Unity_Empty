@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class AsteroidController : MonoBehaviour
+public class MovementController : MonoBehaviour
 {
     [SerializeField] private float minSpeed = 1f;
     [SerializeField] private float maxSpeed = 3f;

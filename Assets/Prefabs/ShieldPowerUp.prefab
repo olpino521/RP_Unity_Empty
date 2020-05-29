@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1272734088040444127}
   - component: {fileID: 1272734088040444124}
   - component: {fileID: 1272734088040444125}
+  - component: {fileID: -6096604912535074031}
   m_Layer: 0
   m_Name: ShieldPowerUp
   m_TagString: Untagged
@@ -130,3 +131,17 @@ MonoBehaviour:
   lifetimeOfPowerUp: 3
   shieldPrefab: {fileID: 3603923983871541891, guid: d5bac5717db30ba4b97a5a70c63f97db,
     type: 3}
+--- !u!114 &-6096604912535074031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272734088040444114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5df4f274525e1784c90053084f29c872, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minSpeed: 1
+  maxSpeed: 3
