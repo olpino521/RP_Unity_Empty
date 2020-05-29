@@ -11,7 +11,10 @@ public class PlayerController : MonoBehaviour
     private float _speed = 2f;
 
     [SerializeField]
-    private GameObject _bulletPrefab;
+    private GameObject _bulletPrefab;    
+
+    [SerializeField]
+    private Transform _bulletgroup;
 
     private float _lastMouseX;
 
@@ -50,7 +53,7 @@ public class PlayerController : MonoBehaviour
 
     private void Shoot()
     {
-        Instantiate(_bulletPrefab, transform.position + Vector3.up, Quaternion.identity);
+        Instantiate(_bulletPrefab, transform.position + Vector3.up, Quaternion.identity, _bulletgroup);
     }
 
     private void OnCollisionEnter2D(Collision2D other)

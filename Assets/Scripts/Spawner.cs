@@ -3,6 +3,7 @@
 public class Spawner : MonoBehaviour
 {
     [SerializeField] private GameObject objectToSpawn = null;
+    [SerializeField] private Transform asteroidGroup;
     [SerializeField] private float spawnRange = 5f;
     [SerializeField] private float spawnIntervals = 1f;
 
@@ -14,7 +15,7 @@ public class Spawner : MonoBehaviour
         {
             float realRange = (spawnRange - objectToSpawn.transform.localScale.x) / 2;
             float randomRange = Random.Range(-realRange, realRange);
-            Instantiate(objectToSpawn, transform.position + (Vector3.right * randomRange),Quaternion.identity);
+            Instantiate(objectToSpawn, transform.position + (Vector3.right * randomRange),Quaternion.identity, asteroidGroup);
             lastUpdate = Time.time;
         }
     }
