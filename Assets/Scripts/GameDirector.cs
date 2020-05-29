@@ -16,6 +16,9 @@ public class GameDirector : MonoBehaviour
     [SerializeField]
     private GameObject _loseText;
 
+    [SerializeField]
+    private GameObject[] _heart;
+
     private int _score = 0;
     private int _lifePoints = 3;
 
@@ -31,9 +34,10 @@ public class GameDirector : MonoBehaviour
         _scoreText.text = _score.ToString();
     }
 
-    public void DecreaseScore()
+    public void DecreaseLifePoint()
     {
         _lifePoints--;
+        _heart[_lifePoints].SetActive(false);
 
         if(_lifePoints <= 0)
         {
