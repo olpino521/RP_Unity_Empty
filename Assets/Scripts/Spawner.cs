@@ -7,14 +7,14 @@ public class Spawner : MonoBehaviour
     [SerializeField] private float spawnIntervals = 1f;
 
     float lastUpdate;
-
     // Update is called once per frame
     void Update()
     {
         if (Time.time - spawnIntervals >= lastUpdate)
         {
-            float randomRange = Random.Range(-spawnRange/2, spawnRange/2);
-            Instantiate(objectToSpawn, transform.position + (Vector3.right *randomRange),Quaternion.identity);
+            float realRange = (spawnRange - objectToSpawn.transform.localScale.x) / 2;
+            float randomRange = Random.Range(-realRange, realRange);
+            Instantiate(objectToSpawn, transform.position + (Vector3.right * randomRange),Quaternion.identity);
             lastUpdate = Time.time;
         }
     }
