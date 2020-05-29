@@ -36,7 +36,7 @@ public class PlayerController : MonoBehaviour
             Vector3 newPos = transform.position;
             int _mouseInput = (int)((Input.mousePosition.x - _lastMouseX) / Mathf.Abs(Input.mousePosition.x - _lastMouseX));
             newPos.x += _mouseInput * _speed * Time.deltaTime;
-
+            newPos.x = Mathf.Clamp(newPos.x, -8, 8);
             transform.position = newPos;
 
             _lastMouseX = Input.mousePosition.x;
