@@ -6,6 +6,7 @@ public class ShieldController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Asteroid"))
         {
+            Destroy(collision.gameObject);
             Destroy(gameObject);
         }
     }
