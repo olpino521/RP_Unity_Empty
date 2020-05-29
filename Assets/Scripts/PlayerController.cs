@@ -52,4 +52,13 @@ public class PlayerController : MonoBehaviour
     {
         Instantiate(_bulletPrefab, transform.position + Vector3.up, Quaternion.identity);
     }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if(other.gameObject.CompareTag("Asteroid"))
+        {
+            GameDirector.Instance.DecreaseLifePoint();
+            Destroy(other.gameObject);
+        }
+    }
 }
