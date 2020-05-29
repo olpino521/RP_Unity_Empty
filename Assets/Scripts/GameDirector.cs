@@ -1,6 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class GameDirector : MonoBehaviour
@@ -17,7 +16,19 @@ public class GameDirector : MonoBehaviour
     private GameObject _loseText;
 
     [SerializeField]
+    private GameObject _championText;
+
+    [SerializeField]
     private GameObject[] _heart;
+
+    [SerializeField]
+    private GameObject _asteroidSpawner;
+
+    [SerializeField]
+    private GameObject _asteroidGroup;
+
+    [SerializeField]
+    private GameObject _bulletGroup;
 
     private int _score = 0;
     private int _lifePoints = 3;
@@ -32,6 +43,17 @@ public class GameDirector : MonoBehaviour
     {
         _score += points;
         _scoreText.text = _score.ToString();
+
+        if(_score >= 20)
+        {
+            Destroy(_player);
+            _championText.SetActive(true);
+            _asteroidSpawner.SetActive(false);
+            _asteroidGroup.SetActive(false);
+            _bulletGroup.SetActive(false);
+
+            Invoke("Restart", 1.5f);
+        }
     }
 
     public void DecreaseLifePoint()
@@ -43,6 +65,16 @@ public class GameDirector : MonoBehaviour
         {
             Destroy(_player);
             _loseText.SetActive(true);
+            _asteroidSpawner.SetActive(false);
+            _asteroidGroup.SetActive(false);
+            _bulletGroup.SetActive(false);
+
+            Invoke("Restart", 1.5f);
         }
+    }
+
+    private void Restart()
+    {
+        SceneManager.LoadScene("AlexTest");
     }
 }
