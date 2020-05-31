@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1688144038772705246}
   - component: {fileID: 1688144038772705217}
+  - component: {fileID: 1144111191}
   m_Layer: 0
   m_Name: AsteroidSpawner
   m_TagString: Untagged
@@ -45,5 +46,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 4618737735137648573, guid: 98239ad7acd315c41a1456ddcaa1df14,
     type: 3}
-  spawnRange: 16.16
+  asteroidGroup: {fileID: 0}
+  spawnRange: 17.5
   spawnIntervals: 1
+--- !u!114 &1144111191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688144038772705247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 439d35c66b4da8f4a8377ef7a114d9f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToSpawn: {fileID: 4618737735137648573, guid: 18b1c4949d26fad4ea29f9f0de9af188,
+    type: 3}
+  asteroidGroup: {fileID: 0}
+  spawnRange: 17.5
+  spawnIntervals: 3

@@ -625,11 +625,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1688144038772705217, guid: 3085651665fe69c47bb1b43d59c98a64,
-        type: 3}
-      propertyPath: spawnRange
-      value: 17.5
-      objectReference: {fileID: 0}
+    - target: {fileID: 1144111191, guid: 3085651665fe69c47bb1b43d59c98a64, type: 3}
+      propertyPath: asteroidGroup
+      value: 
+      objectReference: {fileID: 1049918423}
     - target: {fileID: 1688144038772705217, guid: 3085651665fe69c47bb1b43d59c98a64,
         type: 3}
       propertyPath: asteroidGroup
@@ -694,11 +693,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AsteroidSpawner
-      objectReference: {fileID: 0}
-    - target: {fileID: 1688144038772705247, guid: 3085651665fe69c47bb1b43d59c98a64,
-        type: 3}
-      propertyPath: m_Icon
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3085651665fe69c47bb1b43d59c98a64, type: 3}

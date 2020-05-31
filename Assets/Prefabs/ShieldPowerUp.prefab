@@ -128,7 +128,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   durationOfPowerUp: 3
-  lifetimeOfPowerUp: 3
+  lifetimeOfPowerUp: 12
   shieldPrefab: {fileID: 3603923983871541891, guid: d5bac5717db30ba4b97a5a70c63f97db,
     type: 3}
 --- !u!114 &-6096604912535074031
