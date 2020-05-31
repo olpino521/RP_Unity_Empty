@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7403637917918117617}
   - component: {fileID: 7403637917918117622}
+  - component: {fileID: 2558189386993030411}
   m_Layer: 0
   m_Name: PowerUpSpawner
   m_TagString: Untagged
@@ -44,6 +45,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 1272734088040444114, guid: 8652371a4f1bb8c45ab642d187a1eadf,
+    type: 3}
+  asteroidGroup: {fileID: 0}
+  spawnRange: 16.16
+  spawnIntervals: 10
+--- !u!114 &2558189386993030411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7403637917918117623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 439d35c66b4da8f4a8377ef7a114d9f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToSpawn: {fileID: 1272734088040444114, guid: 9217e0a489a245e42a98fb8e49f5f355,
     type: 3}
   asteroidGroup: {fileID: 0}
   spawnRange: 16.16

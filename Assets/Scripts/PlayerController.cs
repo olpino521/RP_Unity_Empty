@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
 
     private float _lastMouseX;
 
-    internal int _bullets = 3;
+    internal int _bullets = 1;
 
     void Start()
     {

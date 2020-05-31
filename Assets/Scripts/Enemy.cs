@@ -20,7 +20,6 @@ public class Enemy : MonoBehaviour
         {
             GameDirector.Instance.IncreaseScore(points);
             Destroy(gameObject);
-        }
-            
+        }  
     }
 }
