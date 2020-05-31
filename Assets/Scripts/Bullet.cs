@@ -24,9 +24,8 @@ public class Bullet : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Asteroid"))
         {
-            GameDirector.Instance.IncreaseScore(1);
-            Destroy(other.gameObject);
-            Destroy(this.gameObject);
+            other.gameObject.GetComponent<Enemy>()?.ReceiveDamage(1);
+            Destroy(gameObject);
         }
     }
 }
