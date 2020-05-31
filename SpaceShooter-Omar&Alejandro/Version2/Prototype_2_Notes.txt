@@ -1,0 +1,30 @@
+-------------------------------INSTRUCTIONS AND NEW FEATURES------------------------------------------------
+- Movement of the player with A and D
+- Shoot with SPACE BAR
+- If you get hit 3 times you lose
+- If you hit 20 asteroids you win
+- There is 2 power ups:
+	Shield: Protect you from one hit
+	MultiShot: Player shoots three 
+- Increased the size of the camera view
+- Stronger asteroids added
+
+-------------------------------PROTOTYPE 2------------------------------------------------
+Empathize:
+- I didn't get that one (Asteroid)
+- The movement with the mouse is cool but hard
+- The player felt bored because the game was too simple
+
+Define:
+- Space between player and the enemies is too short. Causing frustation
+- It needs to have variety of enemies to be fun
+- The enemies are too simple. Causing boredom
+- The power ups are scarce which hinderes the options to play
+- The movement of the asteroids was predictable.
+
+Ideate:
+
+- 1 more Power up - Multiple shots
+- (New type of enemy) Asteroid with more health
+- Increase size of the map
+- The asteroids move in the X axis too for more variety

@@ -78,7 +78,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if(other.gameObject.CompareTag("Asteroid"))
+        if(other.gameObject.CompareTag("Asteroid") || other.gameObject.CompareTag("EnemyBullet"))
         {
             GameDirector.Instance.DecreaseLifePoint();
             Destroy(other.gameObject);

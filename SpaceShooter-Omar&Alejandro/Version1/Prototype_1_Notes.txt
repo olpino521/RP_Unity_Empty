@@ -1,0 +1,53 @@
+-------------------------------INSTRUCTIONS------------------------------------------------
+- Movement of the player with A and D
+- Shoot with SPACE BAR
+- If you get hit 3 times you lose
+- If you hit 20 asteroids you win
+
+-------------------------------PROTOTYPE 1------------------------------------------------
+----------------EMPATHY MAP--------------------
+Says:
+	-I'm gonna get a better score than you
+	-I'm gonna get a better score
+	-I'm gonna get as many weapons as I can
+	-I'll try go finish the level without dying
+	-I'll try go finish the level without losing life
+	-I'm improving
+
+Thinks:
+	-I'm the boss
+	-I hate that type of enemy
+	-That's a lot of bullets
+	-Am I playing this right?
+	-How do I play this game?
+	-Will I lose my progress if I die?
+	-Am I getting somewhere? What's the progression?
+	-Am I wasting my time?
+
+Does:
+	-dodging asteroids
+	-aiming to shoot
+	-shooting
+	-pick up powerups
+
+Feels:
+	-Powerful
+	-Excited
+	-Playing an indie game
+	-Angry
+	-Frustrated
+	-Bored
+	-Anxious/Overwhelmed
+	-Relaxed/Entertained
+
+Define:
+
+-Ship movement must be really precise
+-Use of power ups for extra options for the player
+
+Ideate:
+- Spaceship movement - x axis movement
+- 1 Power up - Shield
+- 1 Enemy - Asteroids
+- Score
+- 3 lives - 1HKO each live

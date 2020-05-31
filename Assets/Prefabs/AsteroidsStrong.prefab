@@ -148,4 +148,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minScale: 1
-  maxScale: 5
+  maxScale: 3

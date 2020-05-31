@@ -1,0 +1,32 @@
+-------------------------------INSTRUCTIONS AND NEW FEATURES------------------------------------------------
+- Movement of the player with A and D
+- Shoot with SPACE BAR
+- If you get hit 3 times you lose
+- If you hit 20 asteroids you enter the boss battle
+- If you hit defeat the boss you win
+- There is 2 power ups:
+	Shield: Protect you from one hit
+	MultiShot: Player shoots three 
+- Asteroids drop power ups
+-------------------------------PROTOTYPE 3------------------------------------------------
+
+Empathize:
+- Even if there are more enemies is the same because they fall towards me
+- Since they are all the same size it's kinda boring
+- I dont feel rewarded for killing the asteroids
+- Felt relaxed because it didnt felt like there was any rush in destroying the asteroids
+
+Define:
+
+- The asteroids falling towards the player are boring, should change for something else
+- The power ups are working but the player doesn't feel compeled to use them
+- There is no rush into getting to get the winning score.
+
+Ideate:
+
+- Random size of asteroids
+- Asteroids drop power ups
+- A timer for the player to try and get a score for winning
+- Asteroids come from the side so they become more like a block for shots for final boss 
+and power up drop from destroyed asteroids
+- Final boss
