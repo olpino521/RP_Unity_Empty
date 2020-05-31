@@ -64,5 +64,5 @@ MonoBehaviour:
   objectToSpawn: {fileID: 4618737735137648573, guid: 18b1c4949d26fad4ea29f9f0de9af188,
     type: 3}
   asteroidGroup: {fileID: 0}
-  spawnRange: 17.5
+  spawnRange: 31.96
   spawnIntervals: 3

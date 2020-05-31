@@ -642,7 +642,7 @@ PrefabInstance:
     - target: {fileID: 1688144038772705246, guid: 3085651665fe69c47bb1b43d59c98a64,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.51
+      value: 14.22
       objectReference: {fileID: 0}
     - target: {fileID: 1688144038772705246, guid: 3085651665fe69c47bb1b43d59c98a64,
         type: 3}
@@ -823,7 +823,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 9.1
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -847,7 +847,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 803069665}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 4.24, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1180,7 +1180,7 @@ PrefabInstance:
     - target: {fileID: 7403637917918117617, guid: b47e5ffbbd669dd488f30f34db6685c1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.14
+      value: 15.66
       objectReference: {fileID: 0}
     - target: {fileID: 7403637917918117617, guid: b47e5ffbbd669dd488f30f34db6685c1,
         type: 3}
@@ -1561,20 +1561,10 @@ PrefabInstance:
       propertyPath: _bulletgroup
       value: 
       objectReference: {fileID: 1811806018}
-    - target: {fileID: 868036969008246979, guid: 6d33d21a0a85739438081221125ff7d9,
-        type: 3}
-      propertyPath: _mouseControl
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6542003934827334886, guid: 6d33d21a0a85739438081221125ff7d9,
         type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 6991325802505814139, guid: 6d33d21a0a85739438081221125ff7d9,
-        type: 3}
-      propertyPath: m_Constraints
-      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d33d21a0a85739438081221125ff7d9, type: 3}
