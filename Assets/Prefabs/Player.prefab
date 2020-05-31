@@ -132,7 +132,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &868036969008246979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -146,6 +146,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _mouseControl: 0
-  _speed: 20
+  _speed: 16
+  _limitX: 15.5
   _bulletPrefab: {fileID: 2674467303667789493, guid: eadacb0cedd64e14cb9077c94a618dcb,
     type: 3}
+  _bulletgroup: {fileID: 0}
