@@ -4,6 +4,7 @@ public class MovementController : MonoBehaviour
 {
     [SerializeField] private float minYSpeed = 1f;
     [SerializeField] private float maxYSpeed = 3f;
+    [SerializeField] private float minXSpeed = 1f;
     [SerializeField] private float maxXSpeed = 1f;
     private float ySpeed;
     private float xSpeed;
@@ -11,7 +12,7 @@ public class MovementController : MonoBehaviour
     void Start()
     {
         ySpeed = Random.Range(minYSpeed, maxYSpeed);
-        xSpeed = Random.Range(-maxXSpeed, maxXSpeed);
+        xSpeed = Random.Range(minXSpeed, maxXSpeed);
     }
 
     // Update is called once per frame

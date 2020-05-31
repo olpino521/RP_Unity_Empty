@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3119539032297849039}
   - component: {fileID: -8419110447821878422}
   - component: {fileID: 222711733867873117}
+  - component: {fileID: -3065695311584824677}
   m_Layer: 0
   m_Name: Asteroids
   m_TagString: Asteroid
@@ -96,9 +97,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5df4f274525e1784c90053084f29c872, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minYSpeed: 4
-  maxYSpeed: 6
-  maxXSpeed: 1
+  minYSpeed: -1
+  maxYSpeed: 1
+  minXSpeed: 1
+  maxXSpeed: 10
 --- !u!58 &-8419110447821878422
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -127,5 +129,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5af787b7e6e3af40bfef808d280ba5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dropRate: 10
+  powerUps:
+  - {fileID: 1272734088040444114, guid: 9217e0a489a245e42a98fb8e49f5f355, type: 3}
+  - {fileID: 1272734088040444114, guid: 8652371a4f1bb8c45ab642d187a1eadf, type: 3}
   maxHealth: 1
   points: 1
+--- !u!114 &-3065695311584824677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4618737735137648573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9eab369617273b4cacbdba83a9004a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minScale: 1
+  maxScale: 5
